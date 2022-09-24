@@ -3,7 +3,7 @@ package com.mrsaber.offer;
 /**
  * 反转链表
  */
-public class Offer_026 {
+public class Offer_024 {
     public ListNode reverseList(ListNode head) {
         if(head == null){
             return null;
@@ -39,6 +39,6 @@ public class Offer_026 {
         ListNode a3 = new ListNode(3);
         a1.next = a2;
         a2.next = a3;
-        new Offer_026().reverseList(a1);
+        new Offer_024().reverseList(a1);
     }
 }
